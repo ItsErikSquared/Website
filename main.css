@@ -82,3 +82,13 @@ body {
 .icon:nth-child(4) { animation-delay: 4.3s; }
 .icon:nth-child(5) { animation-delay: 4.4s; }
 .icon:nth-child(6) { animation-delay: 4.5s; }
+
+#copyright {
+  position: absolute;
+  bottom: 2px;
+  text-align: center;
+  width: 100%;
+  color: gray;
+  opacity: 0;
+  animation: fade 0.5s reverse 4.6s forwards;
+}

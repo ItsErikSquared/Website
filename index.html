@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Hi. I'm Erik... or Alex</title>
-    <link href='./main.css' rel='stylesheet' type='text/css'></link>
+    <link href='./main.min.css' rel='stylesheet' type='text/css'></link>
     <script src="https://kit.fontawesome.com/319229fe5a.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./assets/logo.jpg" />
     <meta property="og:title" content="ItsErik² Software Development" />
@@ -48,5 +48,8 @@
         <a class='icon' target='_blank' href='mailto:erik@itserik.dev'><i class="fas fa-paper-plane"></i></a>
     </div>
     <div id='copyright'></div>
+    <script>
+      document.getElementById('copyright').innerHTML = '&copy; ItsErikSquared ' + new Date().getFullYear()
+    </script>
   </body>
 </html>
