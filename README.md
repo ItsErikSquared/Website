@@ -1,2 +1,1 @@
-# Website
-It's my website
+[ItsErik.dev](https://itserik.dev)
