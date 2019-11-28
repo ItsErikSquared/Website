@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Hi. I'm Erik... or Alex</title>
+    <link href='./main.css' rel='stylesheet' type='text/css'></link>
+    <script src="https://kit.fontawesome.com/319229fe5a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/logo.jpg" />
+    <meta property="og:title" content="ItsErik² Software Development" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://itserik.dev/" />
+    <meta property="og:image" content="http://itserik.dev/assets/logo.jpg" />
+    <meta property="og:description" content="A guy named Erik who programs stuff. I'd check him out." />
+    <script>
+      console.log('%cHey!', 'font-size:100px; color:red')
+      console.log('%cWhy are you looking at my code?', 'font-size:20px; color:white')
+      console.warn('%cIt\'s a horrible example! Try stackoverflow, or a better developer\'s site.', 'font-size:20px; color:white')
+      console.error('%cIt\'s also copyrighted...', 'font-size: 20px; color:white')
+      console.log('%cI know, I know... you wanted to look... here\'s a cookie for your troubles...', 'font-size:20px; color:white')
+      //https://stackoverflow.com/a/57238009
+      console.image = function(url, size = 100) {
+        var image = new Image();
+        image.onload = function() {
+          var style = [
+            'font-size: 1px;',
+            'padding: ' + this.height/100*size + 'px ' + this.width/100*size + 'px;',
+            'background: url('+ url +') no-repeat;',
+            'background-size: contain;'
+          ].join(' ');
+          console.log('%c ', style);
+        };
+        image.src = url;
+      };
+      console.image('https://upload.wikimedia.org/wikipedia/commons/5/5c/Choc-Chip-Cookie.png', 1)
+    </script>
+  </head>
+  <body>
+    <div id='fade-overlay'></div>
+    <div id='heading'>
+      <h1>Hi, I'm Erik</h1>
+      <h2>or Alex</h2>
+      <h3>I'm a developer</h3>
+    </div>
+    <div id='icons'>
+        <a class='icon' href='https://discord.gg/RnCqS2a'><i class="fab fa-discord"></i></a>
+        <a class='icon' href='https://github.com/ItsErikSquared'><i class="fab fa-github"></i></a>
+        <a class='icon' href='https://keybase.io/itseriksquared'><i class="fab fa-keybase"></i></a>
+        <a class='icon' href='https://www.snapchat.com/add/not3rik2.0'><i class="fab fa-snapchat"></i></a>
+        <a class='icon' href='https://twitter.com/ItsErikSquared'><i class="fab fa-twitter"></i></a>
+        <a class='icon' href='mailto:erik@itserik.dev'><i class="fas fa-paper-plane"></i></a>
+    </div>
+    <div id='copyright'></div>
+  </body>
+</html>
