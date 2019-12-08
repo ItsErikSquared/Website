@@ -1,4 +1,6 @@
 
+// Copyright ItsErikSquared 2019 - https://itserik.dev/COPYRIGHT.md
+
 console.log('%cHey!', 'font-size:100px; color:red')
 console.log('%cWhy are you looking at my code?', 'font-size:20px; color:white')
 console.warn('%cIt\'s a horrible example! Try stackoverflow, or a better developer\'s site.', 'font-size:20px; color:white')
@@ -19,3 +21,4 @@ console.image = function (url, size = 100) {
   image.src = url
 }
 console.image('https://upload.wikimedia.org/wikipedia/commons/5/5c/Choc-Chip-Cookie.png', 1)
+document.getElementById('copyright').innerHTML = '&copy; ItsErikSquared ' + new Date().getFullYear() + ' - All Rights Reserved'
