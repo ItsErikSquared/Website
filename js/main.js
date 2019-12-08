@@ -21,4 +21,4 @@ console.image = function (url, size = 100) {
   image.src = url
 }
 console.image('https://upload.wikimedia.org/wikipedia/commons/5/5c/Choc-Chip-Cookie.png', 1)
-document.getElementById('copyright').innerHTML = '&copy; ItsErikSquared ' + new Date().getFullYear() + ' - All Rights Reserved'
+document.getElementById('copyright').innerHTML = '<a href="https://itserik.dev/COPYRIGHT.md">&copy; ItsErikSquared ' + new Date().getFullYear() + ' - Click for more info</a>'
