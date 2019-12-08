@@ -1,4 +1,4 @@
-/* Copyright ItsErikSquared 2019 - https://itserik.dev/COPYRIGHT.md  */
+/* Copyright ItsErikSquared 2019 - https://itserik.dev/COPYRIGHT  */
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 
@@ -93,8 +93,6 @@ a.button {
   text-decoration: none;
   font-size: 2em;
   font-family: 'Ubuntu Mono', monospace;
-  border-radius: 12px;
-  border: 2px solid gray;
   transition: 0.1s;
   color: gray;
   margin: 0.5em;
