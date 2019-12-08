@@ -1,5 +1,5 @@
 
-// Copyright ItsErikSquared 2019 - https://itserik.dev/README.md
+// Copyright ItsErikSquared 2019 - https://itserik.dev/COPYRIGHT.md
 
 console.log('%cHey!', 'font-size:100px; color:red')
 console.log('%cWhy are you looking at my code?', 'font-size:20px; color:white')
