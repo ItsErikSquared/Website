@@ -9,6 +9,10 @@
   }
 }
 
+.container {
+  padding: 0em 3em
+}
+
 body {
   margin: 0;
   width: 100%;
