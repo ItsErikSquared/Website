@@ -1,5 +1,6 @@
 /* Copyright ItsErikSquared 2019 - https://itserik.dev/COPYRIGHT.md  */
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 
 @keyframes fade {
   0% {opacity: 1;}
@@ -82,4 +83,24 @@ body {
 
 #copyright a:hover {
   color: rgba(0,0,0,0.1)
+}
+
+#quicklinks {
+  text-align:center;
+}
+
+a.button {
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Ubuntu Mono', monospace;
+  border-radius: 12px;
+  border: 2px solid gray;
+  transition: 0.1s;
+  color: gray;
+  margin: 0.5em;
+  padding: 1px
+}
+
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
