@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 
 @keyframes fade {
-  0% {opacity: 1;}
+  0% {
+    opacity: 1;
+  }
+
   100% {
     opacity: 0;
     display: none;
@@ -55,15 +58,32 @@ body {
 }
 
 .icon:hover {
-  color:black;
+  color: black;
 }
 
-.icon:nth-child(1) { animation-delay: 4s; }
-.icon:nth-child(2) { animation-delay: 4.1s; }
-.icon:nth-child(3) { animation-delay: 4.2s; }
-.icon:nth-child(4) { animation-delay: 4.3s; }
-.icon:nth-child(5) { animation-delay: 4.4s; }
-.icon:nth-child(6) { animation-delay: 4.5s; }
+.icon:nth-child(1) {
+  animation-delay: 4s;
+}
+
+.icon:nth-child(2) {
+  animation-delay: 4.1s;
+}
+
+.icon:nth-child(3) {
+  animation-delay: 4.2s;
+}
+
+.icon:nth-child(4) {
+  animation-delay: 4.3s;
+}
+
+.icon:nth-child(5) {
+  animation-delay: 4.4s;
+}
+
+.icon:nth-child(6) {
+  animation-delay: 4.5s;
+}
 
 #copyright {
   position: absolute;
@@ -81,11 +101,13 @@ body {
 }
 
 #copyright a:hover {
-  color: rgba(0,0,0,0.1)
+  color: rgba(0, 0, 0, 0.1)
 }
 
 #quicklinks {
-  text-align:center;
+  opacity: 0;
+  text-align: center;
+  animation: fade 0.5s reverse 4.6s forwards;
 }
 
 a.button {
@@ -99,5 +121,12 @@ a.button {
 }
 
 .button:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3)
+}
+
+.progress {
+  border: 1px solid #ccc;
+  background-color: gray;
+  border-color: gray;
+  height: 24px;
 }
